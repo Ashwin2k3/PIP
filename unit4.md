@@ -235,3 +235,30 @@ This code prompts the user for a search query, constructs a URL using a search e
 
 Remember, the `webbrowser` module offers a convenient way to open web pages from your Python programs. Keep in mind its limitations and use it appropriately in your projects.
 
+## some functions of module webbrowser 
+The `webbrowser` module in Python offers a limited set of functions for interacting with the system's default web browser. Here's a comprehensive listing of its functions:
+
+**1. `webbrowser.open(url, new=0, autoraise=True)`**
+
+   - This is the core function for opening a web page.
+   - **`url` (required):** The URL of the web page to open (string).
+   - **`new` (optional):** Controls how the web browser opens the page (integer):
+     - `0` (default): Attempts to open the page in the same browser window (if available).
+     - `1`: Opens the page in a new browser window.
+     - `2`: Opens the page in a new tab (if the browser supports it).
+   - **`autoraise` (optional):** A Boolean value that determines whether the web browser window is brought to the foreground (default: `True`).
+
+**2. `webbrowser.get(using=None)`**
+
+   - Less commonly used, this function attempts to retrieve a registered browser controller object based on the specified `using` parameter.
+   - **`using` (optional):** A string that can be used to identify a specific browser controller (usually not required).
+
+**3. Other Functions (mainly for internal use):**
+
+   - `webbrowser.register(name, klass, *, preferred=False)`: Registers a new browser controller class (not for typical use cases).
+   - `webbrowser._ الإنترنت__init__()` (special method with a non-standard name): Likely for internal initialization purposes (not intended for external calls).
+   - `webbrowser._ الإنترنت__repr__()` (special method with a non-standard name): Likely for internal string representation purposes (not intended for external calls).
+
+**In essence, you'll primarily use the `webbrowser.open()` function in most cases to launch a web page in the user's default web browser.** The `new` parameter offers some control over how the page is opened. The other functions are for internal use or less common scenarios.
+
+

@@ -10,6 +10,19 @@
 - [ ]  Walking a Directory Tree,
 - [ ]  Compressing Files with the zipfile Module.
 
+- [UNIT‐III](#unitiii)
+- [expected programs that can come](#expected-programs-that-can-come)
+- [THE OS](#the-os)
+- [path module](#path-module)
+- [The File Reading/Writing Process](#the-file-readingwriting-process)
+- [Saving Variables with the shelve Module,](#saving-variables-with-the-shelve-module)
+- [saving variable in pprint](#saving-variable-in-pprint)
+- [pformat() Function.](#pformat-function)
+- [Organizing Files: The shutil Module,](#organizing-files-the-shutil-module)
+- [Walking a Directory Tree,](#walking-a-directory-tree)
+- [compressing files with zipfiles module](#compressing-files-with-zipfiles-module)
+
+
 ## expected programs that can come
 I'd be glad to provide a comprehensive response to the prompt, incorporating insights from the feedback and addressing potential shortcomings:
 

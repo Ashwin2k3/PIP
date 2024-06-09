@@ -70,6 +70,14 @@ else:
   print(f"{text} is not a palindrome.")
 ```
 
+```python
+ a = str(input(“enter the string”)
+b= a[-1::-1]
+If a==b:
+	print(“the string is palindrome”)
+else:
+	print(“the string is not palindrome”)
+```
 This code defines a function `is_palindrome` that takes a string as input and returns `True` if it's a palindrome, `False` otherwise. Here's a breakdown of its functionality:
 
 1. **`is_palindrome(text)` function:**

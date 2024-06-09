@@ -6,6 +6,15 @@
 - [ ]  Saving Downloaded Files to the Hard Drive,
 - [ ]  HTML.
 
+- [WEB SCRAPPING](#web-scrapping)
+- [project MAPIT](#project-mapit)
+- [PY with the web browser Module](#py-with-the-web-browser-module)
+- [some functions of module webbrowser](#some-functions-of-module-webbrowser)
+- [Downloading Files from the Web with the requests Module,](#downloading-files-from-the-web-with-the-requests-module)
+- [DOWNLAODING FILES FROM THE WEB WITH THE REQUESTS MODULE](#downlaoding-files-from-the-web-with-the-requests-module)
+- [Saving Downloaded Files to the Hard Drive,](#saving-downloaded-files-to-the-hard-drive)
+
+
 ## WEB SCRAPPING
 Web scraping in Python involves extracting data from websites. Here's a comprehensive guide to get you started:
 
